@@ -215,7 +215,7 @@ h1 {
 }
 #text2{
     display: none;
-    position: relative;
+    position: absolute;
     bottom: 70%;
     left: 10%;
     color: white;
@@ -223,7 +223,7 @@ h1 {
 }
 #text3{
     display: none;
-    position: relative;
+    position: absolute;
     bottom: 70%;
     left: 10%;
     color: white;
@@ -231,7 +231,7 @@ h1 {
 }
 #text4{
     display: none;
-    position: relative;
+    position: absolute;
     bottom: 70%;
     left: 10%;
     color: white;
@@ -239,7 +239,7 @@ h1 {
 }
 #text5{
     display: none;
-    position: relative;
+    position: absolute;
     bottom: 70%;
     left: 10%;
     color: white;
@@ -247,7 +247,7 @@ h1 {
 }
 #text6{
     display: none;
-    position: relative;
+    position: absolute;
     bottom: 70%;
     left: 10%;
     color: white;
@@ -255,7 +255,7 @@ h1 {
 }
 #text7{
     display: none;
-    position: relative;
+    position: absolute;
     bottom: 70%;
     left: 10%;
     color: white;
@@ -263,7 +263,7 @@ h1 {
 }
 #text8{
     display: none;
-    position: relative;
+    position: absolute;
     bottom: 70%;
     left: 10%;
     color: white;

@@ -188,6 +188,7 @@ h1 {
       font-weight: bold;
       font-size: large;
       padding: 20px;
+      background: rgba(0, 0, 0, .5);
   }
   #about .content strong{
       color: orange;
@@ -197,7 +198,7 @@ h1 {
 .varieties{
     margin-left: 15px;
     margin-right: 15px;
-    padding-bottom: 30px;
+    padding-bottom: 0px;
 }
 .varieties h4{
     text-align: center;
@@ -272,6 +273,56 @@ h1 {
 .fade{
     opacity: 0;
 }
+/*Styling the order section*/
+.order h2{
+    text-align: center;
+  }
+  #variety{
+    padding-top: 30px;
+  }
+.order{
+    background-attachment: fixed;
+    background-image: url("images/pizza1.jpeg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    padding-top: 4%;
+    padding-bottom: 4%;
+  }
+  .order-overlay{
+    background-color: rgba(0, 0, 0, 0.8);
+    margin-left: 2%;
+    margin-right: 2%;
+    padding-bottom: 20px;
+    padding-left: 6%;
+  }
+  .choise{
+    display: none;
+    padding-left: 2%;
+    padding-right: 2%;
+  }
+  .deliver{
+    display: none;
+  }
+  .delivery{
+    display: none;
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+  td,th{
+    font-size: 20px;
+    color: white;
+  }
+  .choise h2{
+    color:orange;
+    text-align: left;
+  }
+  #your-orders{
+    color: white;
+    font-size: 30px;
+  }
+  
 @media (max-width: 768px) {
     .container .slider .slide .caption {
         position: absolute;

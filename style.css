@@ -160,10 +160,11 @@ h1 {
 .arrow{
     position: absolute;
     left: 50%;
-    padding-bottom: 10px;
+    padding: 0px;
 }
 .bounce {
     animation: bounce 2s infinite;
+    padding-bottom: 30px;
   }
   
   @keyframes bounce {
@@ -176,6 +177,16 @@ h1 {
     60% {
       transform: translateY(-20px);
     }
+  }
+  /*Styling about*/
+  #about .content{
+      color: azure;
+      text-align: center;
+      font-weight: bold;
+      font-size: large;
+  }
+  #about .content strong{
+      color: orange;
   }
 @media (max-width: 768px) {
     .container .slider .slide .caption {

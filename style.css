@@ -192,6 +192,86 @@ h1 {
   #about .content strong{
       color: orange;
   }
+
+  /*Styling the varieties*/
+.varieties{
+    margin-left: 15px;
+    margin-right: 15px;
+    padding-bottom: 30px;
+}
+.varieties h4{
+    text-align: center;
+}
+.varieties img{
+    height: 200px;
+}
+#text1{
+    display: none;
+    position: relative;
+    bottom: 70%;
+    left: 10%;
+    color: white;
+    font-weight: bolder;
+}
+#text2{
+    display: none;
+    position: relative;
+    bottom: 70%;
+    left: 10%;
+    color: white;
+    font-weight: bolder;
+}
+#text3{
+    display: none;
+    position: relative;
+    bottom: 70%;
+    left: 10%;
+    color: white;
+    font-weight: bolder;
+}
+#text4{
+    display: none;
+    position: relative;
+    bottom: 70%;
+    left: 10%;
+    color: white;
+    font-weight: bolder;
+}
+#text5{
+    display: none;
+    position: relative;
+    bottom: 70%;
+    left: 10%;
+    color: white;
+    font-weight: bolder;
+}
+#text6{
+    display: none;
+    position: relative;
+    bottom: 70%;
+    left: 10%;
+    color: white;
+    font-weight: bolder;
+}
+#text7{
+    display: none;
+    position: relative;
+    bottom: 70%;
+    left: 10%;
+    color: white;
+    font-weight: bolder;
+}
+#text8{
+    display: none;
+    position: relative;
+    bottom: 70%;
+    left: 10%;
+    color: white;
+    font-weight: bolder;
+}
+.fade{
+    opacity: 0;
+}
 @media (max-width: 768px) {
     .container .slider .slide .caption {
         position: absolute;

@@ -59,4 +59,15 @@ $(document).ready(function(){
                               $("#text8").fadeTo("slow",0);
                               $("#pic8").fadeTo("slow",1);
                             });
-})
+});
+
+//business logic scripts
+var price, crust_price, topping_price;
+let total = 0;
+function GetPizza(name,size, crust, topping,total){
+    this.name = name;
+    this.size = size;
+    this.crust = crust;
+    this.topping = topping;
+    this.total = total;
+}

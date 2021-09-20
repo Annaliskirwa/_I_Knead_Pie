@@ -71,3 +71,12 @@ function GetPizza(name,size, crust, topping,total){
     this.topping = topping;
     this.total = total;
 }
+
+//user interface logic
+$(document).ready(function(){
+    $("button.proceed").click(function(event){
+        let pname = $(".name option:selected").val();
+        let psize = $(".name option:selected").val();
+        let pcrust = $("name option:selected").val();
+    })
+})

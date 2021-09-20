@@ -379,11 +379,23 @@ h1 {
     .flex-xs-column {
       flex-direction: column;
     }
+    .about-pic{
+        display: none;
+    }
+    .arrow{
+        display: none;
+    }
   }
   @media only screen and (max-width: 767px){
     .section {
       padding-top: 30px;
   }
+  .about-pic{
+    display: none;
+}
+.arrow{
+    display: none;
+}
   .flex-xs-column {
       flex-direction: column;
   }
@@ -437,6 +449,12 @@ h1 {
         left: 20px;
         right: 20px;
         padding: 20px;
+    }
+    .about-pic{
+        display: none;
+    }
+    .arrow{
+        display: none;
     }
     .container .slider .slide .caption h2 {
         margin: 0 0 10;

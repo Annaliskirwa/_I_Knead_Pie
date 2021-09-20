@@ -143,5 +143,15 @@ $(document).ready(function(){
         $("#pizzacrust").html($("#crust option:selected").val());
         $("#pizzatopping").html(ptopping.join(", "));
         $("#totals").html(total);
+
+        $("button.addPizza").click(function(){
+            let pname = $(".name option:selected").val();
+            let psize = $("#size option:selected").val();
+            let pcrust = $("#crust option:selected").val();
+            let ptopping = [];
+            $.each($("input[name='toppings']:checked"), function(){            
+                ptopping.push($(this).val());
+            });
+        console.log(ptopping.join(", "));
         });
 });

@@ -193,6 +193,9 @@ $(document).ready(function(){
           console.log("toppins value" + topping_value);
           total = price + crust_price + topping_value;
           console.log(total);
+
+        checkoutTotal = checkoutTotal + total;
+        console.log(checkoutTotal);
   
         });
 });

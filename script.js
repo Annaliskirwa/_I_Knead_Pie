@@ -78,5 +78,10 @@ $(document).ready(function(){
         let pname = $(".name option:selected").val();
         let psize = $(".name option:selected").val();
         let pcrust = $("name option:selected").val();
-    })
-})
+        let ptopping = [];
+        $.each($("input[name='toppings']:checked"), function(){
+            ptopping.push($(this).val());
+        });
+        console.log(ptopping.join(", "));
+    });
+});

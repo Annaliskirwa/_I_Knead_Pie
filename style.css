@@ -11,6 +11,7 @@ body{
   margin: 0;
   padding: 0;
   background-image: url(/images/wood.jpg);
+  position: relative;
 }
 /*Styling the navbar*/
 #overlay{
@@ -23,7 +24,7 @@ body{
   #head{
     padding-top: 3%;
   }
-  nav .navbar{
+ nav .navbar{
     width: 99%;
     padding-right: 0px;
   }
@@ -32,7 +33,7 @@ body{
     font-weight:800;
   }
   .nav-item a{
-    /* padding-right: 50px; */
+    padding-right: 50px;
     font-size: 20px;
     font-weight: 700;
   }

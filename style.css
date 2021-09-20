@@ -276,6 +276,7 @@ h1 {
 /*Styling the order section*/
 .order h2{
     text-align: center;
+    color: orange;
   }
   #variety{
     padding-top: 30px;
@@ -321,6 +322,14 @@ h1 {
   #your-orders{
     color: white;
     font-size: 30px;
+  }
+  /*Stlying the contacts section*/
+  #contact{
+      color: white;
+  }
+  #contact .controls-top{
+      padding-top: 30px;
+      padding-bottom: 30px;
   }
   
 @media (max-width: 768px) {

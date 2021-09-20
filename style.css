@@ -331,7 +331,15 @@ h1 {
       padding-top: 30px;
       padding-bottom: 30px;
   }
-  
+  /*Styling the footer*/
+.footers p{
+    color: orange;
+     text-align: center; 
+     font-size: large;
+}
+.footers p:hover{
+    color: white;
+}
 @media (max-width: 768px) {
     .container .slider .slide .caption {
         position: absolute;

@@ -35,7 +35,9 @@ The JQuery effects used seem to tamper with the navbar toggler items on small sc
 * CSS - For styling the web app
 * Javascript - For document object manipulation and user interactivity and business logic
 * Bootstrap - For styling the interface and adding responsiveness  
-* JQuery - For enhanced interactivity, animations effect on the webpage and transversal
+* JQuery - For enhanced interactivity, animations effect on the webpage and transversal  
+## Design  
+The link to the design can be found in this  <a href = "https://www.figma.com/file/8mCkgAJoTxzS4R7iJHexQj/I-Knead-Pie?node-id=0%3A1">link</a>
 ## Support and contact details
 In case of any problem while interacting with the I Knead Pie web application, reach out to me at annalis.kirwa@student.moringaschool.com
 ### License.

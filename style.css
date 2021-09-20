@@ -10,7 +10,7 @@ html,body,header,
 body{
   margin: 0;
   padding: 0;
-  background-image: url(/images/wood.jpg);
+  background-image: url(images/wood.jpg);
   position: relative;
 }
 /*Styling the navbar*/

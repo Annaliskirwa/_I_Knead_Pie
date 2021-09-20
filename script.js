@@ -259,5 +259,4 @@ $(document).ready(function(){
             window.location.hash = hash
         })
     })
-    $('body').scrollspy({target: '#collapsibleNavbar'})
 });

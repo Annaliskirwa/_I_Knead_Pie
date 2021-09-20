@@ -133,5 +133,9 @@ $(document).ready(function(){
             $("#information").hide();
             $("div.choise").slideDown(1000);
           }
+        total = price + crust_price + topping_value;
+        console.log(total);
+        let checkoutTotal =0;
+        checkoutTotal = checkoutTotal + total;
     });
 });
